@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "merkle_tree", 
+    "client",
+    "server"
+]
