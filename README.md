@@ -1,4 +1,4 @@
-# MerkleDriv
+# MerkleDrive
 
 A **secure, cryptographically-verifiable file sharing system** built with Rust that leverages Merkle trees to ensure file integrity and authenticity. This project enables clients to upload files to a server, delete local copies, and later retrieve files with cryptographic proof that they haven't been tampered with.
 
