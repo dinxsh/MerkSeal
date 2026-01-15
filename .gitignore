@@ -1,0 +1,30 @@
+# Environment variables (contains secrets!)
+.env
+
+# Batch contents (keep directory structure)
+batches/*
+!batches/.gitkeep
+
+# Rust build artifacts
+target/
+Cargo.lock
+
+# Node.js (for scripts/)
+node_modules/
+package-lock.json
+
+# Solidity/Foundry (for contracts/)
+out/
+cache/
+lib/
+broadcast/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# OS
+Thumbs.db

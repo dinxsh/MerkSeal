@@ -1,0 +1,9 @@
+.env
+out/
+cache/
+lib/
+node_modules/
+artifacts/
+cache_hardhat/
+typechain/
+typechain-types/

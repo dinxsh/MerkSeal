@@ -1,0 +1,20 @@
+type Batch @entity {
+  id: ID! # Mantle batch ID
+  root: Bytes! # Merkle root (32 bytes)
+  owner: Bytes! # Address that registered the batch
+  metaURI: String! # Metadata URI (IPFS, HTTP, etc.)
+  timestamp: BigInt! # Block timestamp
+  blockNumber: BigInt! # Block number
+  transactionHash: Bytes! # Transaction hash
+}
+
+type BatchRegisteredEvent @entity {
+  id: ID! # Transaction hash + log index
+  batchId: BigInt!
+  root: Bytes!
+  owner: Bytes!
+  metaURI: String!
+  timestamp: BigInt!
+  blockNumber: BigInt!
+  transactionHash: Bytes!
+}

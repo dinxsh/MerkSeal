@@ -1,6 +1,8 @@
 [workspace]
+resolver = "2"
 members = [
     "merkle_tree", 
     "client",
-    "server"
+    "server",
+    "mantle_config"
 ]

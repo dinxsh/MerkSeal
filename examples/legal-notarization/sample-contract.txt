@@ -1,0 +1,59 @@
+EMPLOYMENT AGREEMENT
+
+This Employment Agreement ("Agreement") is entered into as of January 15, 2026,
+between TechCorp Inc. ("Employer") and John Doe ("Employee").
+
+1. POSITION AND DUTIES
+   Employee shall serve as Senior Software Engineer and shall perform such
+   duties as are customarily associated with such position.
+
+2. COMPENSATION
+   Employee shall receive an annual salary of $120,000, payable in accordance
+   with Employer's standard payroll practices.
+
+3. BENEFITS
+   Employee shall be entitled to participate in all benefit plans maintained
+   by Employer for its employees.
+
+4. TERM
+   This Agreement shall commence on February 1, 2026, and shall continue
+   until terminated by either party.
+
+5. CONFIDENTIALITY
+   Employee agrees to maintain the confidentiality of all proprietary
+   information of Employer.
+
+6. INTELLECTUAL PROPERTY
+   All work product created by Employee during employment shall be the
+   exclusive property of Employer.
+
+7. TERMINATION
+   Either party may terminate this Agreement upon thirty (30) days written
+   notice to the other party.
+
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the date
+first written above.
+
+EMPLOYER:                          EMPLOYEE:
+TechCorp Inc.                      John Doe
+
+By: _____________________          _____________________
+    Jane Smith, CEO                Signature
+    
+Date: January 15, 2026             Date: January 15, 2026
+
+
+═══════════════════════════════════════════════════════════
+NOTARIZATION RECORD (MerkSeal on Mantle L2)
+═══════════════════════════════════════════════════════════
+
+This document was notarized using MerkSeal on Mantle L2 blockchain.
+
+Document Hash: [To be computed upon upload]
+Merkle Root: [To be anchored on Mantle]
+Transaction: [To be recorded on Mantle blockchain]
+
+Verify at: https://explorer.testnet.mantle.xyz
+
+This cryptographic proof demonstrates that this document existed in its
+current state at the recorded timestamp and has not been tampered with.

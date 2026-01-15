@@ -1,0 +1,2 @@
+# This file ensures the batches/ directory is tracked by git
+# The directory is needed for the server to store uploaded file batches

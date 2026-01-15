@@ -1,0 +1,13 @@
+{
+  "name": "MerkSeal-anchor",
+  "version": "1.0.0",
+  "description": "Anchor MerkSeal batch roots on Mantle L2",
+  "type": "module",
+  "scripts": {
+    "anchor": "node anchor.js"
+  },
+  "dependencies": {
+    "ethers": "^6.9.0",
+    "dotenv": "^16.3.1"
+  }
+}

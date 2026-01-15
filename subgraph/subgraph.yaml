@@ -1,0 +1,25 @@
+specVersion: 0.0.5
+schema:
+  file: ./schema.graphql
+dataSources:
+  - kind: ethereum
+    name: MerkleBatchRegistry
+    network: mantle-testnet
+    source:
+      address: "YOUR_CONTRACT_ADDRESS_HERE"
+      abi: MerkleBatchRegistry
+      startBlock: 0
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: wasm/assemblyscript
+      entities:
+        - Batch
+        - BatchRegisteredEvent
+      abis:
+        - name: MerkleBatchRegistry
+          file: ./abis/MerkleBatchRegistry.json
+      eventHandlers:
+        - event: BatchRegistered(indexed uint256,indexed bytes32,indexed address,string)
+          handler: handleBatchRegistered
+      file: ./src/mapping.ts

@@ -1,0 +1,17 @@
+{
+    "name": "MerkSeal-subgraph",
+    "version": "1.0.0",
+    "description": "The Graph subgraph for MerkSeal on Mantle L2",
+    "scripts": {
+        "codegen": "graph codegen",
+        "build": "graph build",
+        "deploy": "graph deploy --node https://api.thegraph.com/deploy/ MerkSeal/mantle",
+        "create-local": "graph create --node http://localhost:8020/ MerkSeal/mantle",
+        "remove-local": "graph remove --node http://localhost:8020/ MerkSeal/mantle",
+        "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 MerkSeal/mantle"
+    },
+    "dependencies": {
+        "@graphprotocol/graph-cli": "^0.56.0",
+        "@graphprotocol/graph-ts": "^0.31.0"
+    }
+}
